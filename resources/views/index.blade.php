@@ -46,7 +46,6 @@
     </div>
 
     <script>
-        
         var loadMoreUrl = '{{route('loadnews')}}';
         document.getElementById('loadnews').addEventListener('click', function(){
             fetch(loadMoreUrl)
