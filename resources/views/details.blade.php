@@ -7,7 +7,7 @@
                 <!-- Trending Tittle -->
                 <div class="about-right mb-90">
                     <div class="about-img">
-                        <img src="{{ url('../storage/app/public/'.$news->image) }}" style="width:50%" class="img-fluid" alt="">
+                        <img src="{{ \Illuminate\Support\Facades\Storage::disk('local')->url($new->image) }}" style="width:50%" class="img-fluid" alt="">
                     </div>
                     <div class="section-tittle mb-30 pt-30">
                         <h3>{{ $news->title }}</h3>
