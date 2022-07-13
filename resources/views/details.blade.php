@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <!-- Trending Tittle -->
                 <div class="about-right mb-90">
-                    <div class="about-img">
+                    <div class="about-img" style="text-align:center">
                         <img src="{{ \Illuminate\Support\Facades\Storage::disk('local')->url($new->image) }}" style="width:50%" class="img-fluid" alt="">
                     </div>
                     <div class="section-tittle mb-30 pt-30">
